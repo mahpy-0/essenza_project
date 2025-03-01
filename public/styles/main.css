@@ -803,9 +803,6 @@
   .aspect-square {
     aspect-ratio: 1 / 1;
   }
-  .h-16 {
-    height: calc(var(--spacing) * 16);
-  }
   .h-screen {
     height: 100vh;
   }
@@ -820,9 +817,6 @@
   }
   .w-1\/2 {
     width: calc(1/2 * 100%);
-  }
-  .w-full {
-    width: 100%;
   }
   .w-screen {
     width: 100vw;
@@ -1229,9 +1223,6 @@
   .justify-items-stretch {
     justify-items: stretch;
   }
-  .gap-x-6 {
-    column-gap: calc(var(--spacing) * 6);
-  }
   .space-y-reverse {
     :where(& > :not(:last-child)) {
       --tw-space-y-reverse: 1;
@@ -1316,9 +1307,6 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-  }
-  .overflow-hidden {
-    overflow: hidden;
   }
   .scroll-auto {
     scroll-behavior: auto;
@@ -1460,9 +1448,6 @@
   }
   .bg-red-500\/\[50\%\] {
     background-color: color-mix(in oklab, var(--color-red-500) 50%, transparent);
-  }
-  .bg-sky-100 {
-    background-color: var(--color-sky-100);
   }
   .-bg-conic {
     --tw-gradient-position: in oklab;
@@ -1633,12 +1618,6 @@
   .p-1 {
     padding: calc(var(--spacing) * 1);
   }
-  .px-6 {
-    padding-inline: calc(var(--spacing) * 6);
-  }
-  .py-5\.5 {
-    padding-block: calc(var(--spacing) * 5.5);
-  }
   .text-center {
     text-align: center;
   }
@@ -1680,20 +1659,6 @@
   }
   .align-top {
     vertical-align: top;
-  }
-  .font-Cabinet-Grotesk {
-    font-family: var(--font-Cabinet-Grotesk);
-  }
-  .font-Instrument-Serif {
-    font-family: var(--font-Instrument-Serif);
-  }
-  .text-sm {
-    font-size: var(--text-sm);
-    line-height: var(--tw-leading, var(--text-sm--line-height));
-  }
-  .text-xl\/tight {
-    font-size: var(--text-xl);
-    line-height: var(--leading-tight);
   }
   .leading-none {
     --tw-leading: 1;
@@ -1771,9 +1736,6 @@
   }
   .\[color\:red\]\/50\! {
     color: color-mix(in oklab, red 50%, transparent) !important;
-  }
-  .text-custom-red {
-    color: var(--color-custom-red);
   }
   .capitalize {
     text-transform: capitalize;
